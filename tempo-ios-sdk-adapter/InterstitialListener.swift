@@ -10,7 +10,5 @@ public protocol InterstitialListener {
     
     func onAdClosed()
     
-    func onAdClick()
-    
     func onAdShowFailed(reason: String?)
 }

@@ -13,13 +13,16 @@ public class Tempo {
     }
     
     public static func initTempo(appId: String?, listener: TempoInitListener) {
-        TempoProfile.DisableProfile() // TODO: Add to original SDK
+        //TempoProfile.DisableProfile() // TODO: Add to original SDK
+//        public static func DisableProfile() {
+//            TempoProfile.locationState = LocationState.DISABLED
+//        }
         
         if setAppId(appId: appId) {
             isInitialised = true
             listener.onTempoInitialized()
         } else {
-            TempoUtils.say(msg: "App ID is nil or empty")
+            say(msg: "App ID is nil or empty")
             isInitialised = false
             listener.onTempoInitializationFailed(errorMsg: "App ID is nil or empty")
         }
@@ -27,10 +30,10 @@ public class Tempo {
     
     public static func getAppId() -> String? {
         if let id = self.appId, !id.isEmpty {
-            TempoUtils.say(msg: "Updating App ID: \(id)")
+            say(msg: "Updating App ID: \(id)")
             return self.appId
         } else {
-            TempoUtils.say(msg: "App ID is nil or empty")
+            say(msg: "App ID is nil or empty")
             return nil
         }
     }
@@ -40,8 +43,18 @@ public class Tempo {
             self.appId = id
             return true
         } else {
-            TempoUtils.say(msg: "App ID cannot be nil or empty")
+            say(msg: "App ID cannot be nil or empty")
             return false
         }
+    }
+    
+    /// Log for general output
+    internal static func say(msg: String) {
+        print("TempoAdapter: \(msg)");
+    }
+    
+    /// Log for warning output
+    internal static func warn(msg: String) {
+        print("⚠️ TempoAdapter: \(msg)");
     }
 }

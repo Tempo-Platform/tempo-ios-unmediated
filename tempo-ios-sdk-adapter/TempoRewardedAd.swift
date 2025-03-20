@@ -1,16 +1,20 @@
+//
+//  TempoInterstitialAd.swift
+//  TempoSDKAdapter
+//
+//  Created by Stephen Baker on 20/3/2025.
+//
 import Foundation
 import TempoSDK
 
-public class TempoInterstitialAd: TempoAdListener{
-
-    
+public class TempoRewardedAd: TempoAdListener {
         
-    public let interstitialListener: InterstitialListener
+    public let rewardedListener: RewardedListener
     var adController: TempoAdController?
     var adReady: Bool = false
     
-    public init(listener: InterstitialListener) {
-        self.interstitialListener = listener
+    public init(listener: RewardedListener) {
+        self.rewardedListener = listener
     }
     
     public func loadAd(cpmFloor: Float?) {
@@ -19,7 +23,7 @@ public class TempoInterstitialAd: TempoAdListener{
     
     public func loadAd(cpmFloor: Float?, placementId: String?) {
         if(!Tempo.isInitialised) {
-            TempoUtils.warn(msg: "TempoSDK not initialised, cannot load ads")
+            Tempo.warn(msg: "TempoSDK not initialised, cannot load ads")
             return
         }
         
@@ -31,11 +35,11 @@ public class TempoInterstitialAd: TempoAdListener{
     
     public func showAd(vc: UIViewController) {
         if(!Tempo.isInitialised) {
-            TempoUtils.warn(msg: "TempoSDK not initialised, cannot show ads")
+            Tempo.warn(msg: "TempoSDK not initialised, cannot show ads")
             return
         }
         if(!adReady) {
-            TempoUtils.warn(msg: "Ad not ready to be shown")
+            Tempo.warn(msg: "Ad not ready to be shown")
             return
         }
         
@@ -46,49 +50,46 @@ public class TempoInterstitialAd: TempoAdListener{
         return adReady
     }
     
-    public func hasUserConsent() -> Bool? {
-        return false
-    }
-    
     public func onTempoAdFetchSucceeded(isInterstitial: Bool) {
-        if(isInterstitial) {
+        if(!isInterstitial) {
             adReady = true
-            interstitialListener.onAdLoaded()
+            rewardedListener.onAdLoaded()
         }
     }
     
     public func onTempoAdFetchFailed(isInterstitial: Bool, reason: String?) {
         adReady = false
-        if(isInterstitial) {
-            interstitialListener.onAdLoadFailed(reason: reason)
+        if(!isInterstitial) {
+            rewardedListener.onAdLoadFailed(reason: reason)
         }
     }
     
     public func onTempoAdClosed(isInterstitial: Bool) {
         adReady = false
-        if(isInterstitial) {
-            interstitialListener.onAdClosed()
+        if(!isInterstitial) {
+            rewardedListener.onAdClosed()
+            rewardedListener.onAdRewarded()
         }
     }
     
     public func onTempoAdDisplayed(isInterstitial: Bool) {
         adReady = false
-        if(isInterstitial) {
-            interstitialListener.onAdShow()
+        if(!isInterstitial) {
+            rewardedListener.onAdShow()
         }
     }
     
     public func onTempoAdShowFailed(isInterstitial: Bool, reason: String?) {
         adReady = false
-        if(isInterstitial) {
-            interstitialListener.onAdShowFailed(reason: reason)
+        if(!isInterstitial) {
+            rewardedListener.onAdShowFailed(reason: reason)
         }
     }
     
     public func onTempoAdClicked(isInterstitial: Bool) {
         adReady = false
-        if(isInterstitial) {
-            interstitialListener.onAdClick()
+        if(!isInterstitial) {
+            //rewardedListener.onAdClick()
         }
     }
     
@@ -98,5 +99,9 @@ public class TempoInterstitialAd: TempoAdListener{
     
     public func getTempoAdapterType() -> String? {
         return Tempo.ADAPTER_TYPE
+    }
+    
+    public func hasUserConsent() -> Bool? {
+        return false
     }
 }

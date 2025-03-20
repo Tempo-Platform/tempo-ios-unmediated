@@ -10,8 +10,6 @@ public protocol RewardedListener {
     
     func onAdClosed()
     
-    func onAdClick()
-    
     func onAdRewarded()
     
     func onAdShowFailed(reason: String?)

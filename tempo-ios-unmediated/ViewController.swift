@@ -11,7 +11,7 @@ import TempoSDK
 
 class ViewController: UIViewController, TempoInitListener, InterstitialListener, RewardedListener {
 
-    let appId = "5"
+    let appId = "8"
     var interstitialAd: TempoInterstitialAd?
     var rewardedAd: TempoRewardedAd?
     
@@ -41,13 +41,13 @@ class ViewController: UIViewController, TempoInitListener, InterstitialListener,
     }
     
     func onTempoInitialized() {
-        TempoUtils.say(msg: "Inititalised")
+        AppUtils.say(msg: "Inititalised")
         interstitialAd = TempoInterstitialAd(listener: self)
         rewardedAd = TempoRewardedAd(listener: self)
     }
     
     func onTempoInitializationFailed(errorMsg: String) {
-        TempoUtils.say(msg: "Inititalisation failed: \(errorMsg)")
+        AppUtils.say(msg: "Inititalisation failed: \(errorMsg)")
     }
     
     func onAdLoaded() {

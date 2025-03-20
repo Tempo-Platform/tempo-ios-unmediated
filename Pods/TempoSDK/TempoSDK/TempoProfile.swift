@@ -364,10 +364,6 @@ public class TempoProfile: NSObject, CLLocationManagerDelegate { //TODO: Make cl
         TempoProfile.updateLocState(newState: LocationState.FAILED)
         self.adView.pushHeldMetricsWithUpdatedLocationData()
     }
-    
-    public static func DisableProfile() {
-        TempoProfile.locationState = LocationState.DISABLED
-    }
 }
 
 public struct LocationData : Codable {
