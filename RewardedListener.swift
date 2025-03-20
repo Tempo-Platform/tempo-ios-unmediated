@@ -15,6 +15,4 @@ public protocol RewardedListener {
     func onAdRewarded()
     
     func onAdShowFailed(reason: String?)
-    
-    func isAdReady() -> Bool
 }

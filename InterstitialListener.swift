@@ -13,6 +13,4 @@ public protocol InterstitialListener {
     func onAdClick()
     
     func onAdShowFailed(reason: String?)
-    
-    func isAdReady() -> Bool
 }

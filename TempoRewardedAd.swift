@@ -4,7 +4,6 @@
 //
 //  Created by Stephen Baker on 20/3/2025.
 //
-
 import Foundation
 import TempoSDK
 
@@ -16,6 +15,10 @@ public class TempoRewardedAd: TempoAdListener {
     
     public init(listener: RewardedListener) {
         self.rewardedListener = listener
+    }
+    
+    public func loadAd(cpmFloor: Float?) {
+        loadAd(cpmFloor: cpmFloor, placementId: nil)
     }
     
     public func loadAd(cpmFloor: Float?, placementId: String?) {
@@ -41,6 +44,10 @@ public class TempoRewardedAd: TempoAdListener {
         }
         
         adController?.showAd(parentViewController: vc)
+    }
+    
+    public func isAdReady() -> Bool {
+        return adReady
     }
     
     public func onTempoAdFetchSucceeded(isInterstitial: Bool) {

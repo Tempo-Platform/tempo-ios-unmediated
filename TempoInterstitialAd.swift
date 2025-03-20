@@ -1,14 +1,9 @@
-//
-//  TempoInterstitialAd.swift
-//  TempoSDKAdapter
-//
-//  Created by Stephen Baker on 20/3/2025.
-//
-
 import Foundation
 import TempoSDK
 
 public class TempoInterstitialAd: TempoAdListener{
+
+    
         
     public let interstitialListener: InterstitialListener
     var adController: TempoAdController?
@@ -16,6 +11,10 @@ public class TempoInterstitialAd: TempoAdListener{
     
     public init(listener: InterstitialListener) {
         self.interstitialListener = listener
+    }
+    
+    public func loadAd(cpmFloor: Float?) {
+        loadAd(cpmFloor: cpmFloor, placementId: nil)
     }
     
     public func loadAd(cpmFloor: Float?, placementId: String?) {
@@ -41,6 +40,14 @@ public class TempoInterstitialAd: TempoAdListener{
         }
         
         adController?.showAd(parentViewController: vc)
+    }
+    
+    public func isAdReady() -> Bool {
+        return adReady
+    }
+    
+    public func hasUserConsent() -> Bool? {
+        return false
     }
     
     public func onTempoAdFetchSucceeded(isInterstitial: Bool) {
@@ -91,9 +98,5 @@ public class TempoInterstitialAd: TempoAdListener{
     
     public func getTempoAdapterType() -> String? {
         return Tempo.ADAPTER_TYPE
-    }
-    
-    public func hasUserConsent() -> Bool? {
-        return false
     }
 }

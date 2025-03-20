@@ -3,8 +3,8 @@ import TempoSDK
 
 public class Tempo {
     
-    public static let VERSION = "1.1.0-rc.0"
-    public static let ADAPTER_TYPE = "Unmediated"
+    public static let VERSION = "1.1.0"
+    public static let ADAPTER_TYPE = "UNMEDIATED"
     internal static var isInitialised: Bool = false
     private static var appId: String?;
     

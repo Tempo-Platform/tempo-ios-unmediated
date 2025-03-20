@@ -271,9 +271,9 @@
 		A52ABD3816F9FD1C2A02EACA7B3078CB /* TempoSDKAdapter */ = {
 			isa = PBXGroup;
 			children = (
-				3E3D97FA681AB45E3B943855051939CC /* Tempo.swift */,
 				AEE05A2126F79B5DBF0B582AFCCFF7E9 /* Pod */,
 				00D203CE6CDF6AB20935FD73F9C3E69B /* Support Files */,
+				3E3D97FA681AB45E3B943855051939CC /* Tempo.swift */,
 				0D8EB8002D8BBFDD000012B2 /* TempoInterstitialAd.swift */,
 				0D8EB8082D8C01D4000012B2 /* TempoRewardedAd.swift */,
 				0D8EB8022D8BCC0F000012B2 /* InterstitialListener.swift */,

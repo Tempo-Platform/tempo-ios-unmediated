@@ -1,10 +1,3 @@
-//
-//  AppDelegate.swift
-//  tempo-ios-unmediated
-//
-//  Created by Stephen Baker on 20/3/2025.
-//
-
 import UIKit
 
 @main
