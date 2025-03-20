@@ -1,0 +1,6 @@
+framework module TempoSDKAdapter {
+  umbrella header "TempoSDKAdapter-umbrella.h"
+
+  export *
+  module * { export * }
+}

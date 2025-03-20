@@ -1,0 +1,6 @@
+framework module Pods_tempo_ios_unmediated {
+  umbrella header "Pods-tempo-ios-unmediated-umbrella.h"
+
+  export *
+  module * { export * }
+}
