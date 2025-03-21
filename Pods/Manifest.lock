@@ -4,20 +4,17 @@ PODS:
     - TempoSDK (= 1.8.4)
 
 DEPENDENCIES:
-  - TempoSDKAdapter (from `.`)
+  - TempoSDKAdapter (= 1.1.0)
 
 SPEC REPOS:
   trunk:
     - TempoSDK
-
-EXTERNAL SOURCES:
-  TempoSDKAdapter:
-    :path: "."
+    - TempoSDKAdapter
 
 SPEC CHECKSUMS:
   TempoSDK: 73e2b7367175c34b665eaaf03a7c595b72ed9431
-  TempoSDKAdapter: 92bf3b65e5eac732cadbc34d5969012810ee7e24
+  TempoSDKAdapter: e316d1be6d06d5b053463e02c9d090cc5eff6662
 
-PODFILE CHECKSUM: a9aae679f8f4ff231b985dc289be6b589fd9be5e
+PODFILE CHECKSUM: ac6374fcc4529c7bb02fc79344be5c6a8bf2e521
 
 COCOAPODS: 1.16.2

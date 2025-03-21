@@ -5,6 +5,7 @@ target 'tempo-ios-unmediated' do
   use_frameworks!
 
   # Pods for tempo-ios-unmediated
-  pod 'TempoSDKAdapter', :path => '.'
+  #pod 'TempoSDKAdapter', :path => '.'
+  pod 'TempoSDKAdapter', '1.1.0'
 
 end
