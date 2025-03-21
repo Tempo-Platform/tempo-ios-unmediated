@@ -27,7 +27,7 @@
   "source_files": "tempo-ios-sdk-adapter/**/*.{h,m,swift}",
   "resource_bundles": {
     "tempo-ios-sdk-adapter": [
-      "TempoSDK/Resources/**/*"
+      "TempoSDKAdapter/Resources/**/*"
     ]
   },
   "tvos": {
