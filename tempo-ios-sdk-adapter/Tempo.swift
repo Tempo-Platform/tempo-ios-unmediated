@@ -3,20 +3,14 @@ import TempoSDK
 
 public class Tempo {
     
-    public static let VERSION = "1.1.0"
+    public static let VERSION = "1.1.1"
     public static let ADAPTER_TYPE = "UNMEDIATED"
     internal static var isInitialised: Bool = false
     private static var appId: String?;
     
-    public static func testMe(msg: String) {
-        print("AdapterUtils: \(msg)");
-    }
-    
+    /// Initialiser for Tempo ads, requires App ID to run interstitial/rewarded ads
     public static func initTempo(appId: String?, listener: TempoInitListener) {
-        //TempoProfile.DisableProfile() // TODO: Add to original SDK
-//        public static func DisableProfile() {
-//            TempoProfile.locationState = LocationState.DISABLED
-//        }
+        TempoProfile.updateLocState(newState: LocationState.DISABLED)
         
         if setAppId(appId: appId) {
             isInitialised = true
@@ -28,6 +22,7 @@ public class Tempo {
         }
     }
     
+    /// Returns updated App ID (or nil)
     public static func getAppId() -> String? {
         if let id = self.appId, !id.isEmpty {
             say(msg: "Updating App ID: \(id)")
@@ -38,6 +33,7 @@ public class Tempo {
         }
     }
     
+    /// Updates current App ID d
     private static func setAppId(appId: String?) -> Bool {
         if let id = appId, !id.isEmpty {
             self.appId = id

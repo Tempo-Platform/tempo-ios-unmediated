@@ -6,7 +6,7 @@
 
 Pod::Spec.new do |spec|
   spec.name             = 'TempoSDKAdapter'
-  spec.version          = '1.1.0'
+  spec.version          = '1.1.1'
   spec.swift_version    = '5.6.1'
   spec.author           = { 'Tempo Engineering' => 'development@tempoplatform.com' }
   spec.license          = { :type => 'MIT', :file => 'LICENSE' }
@@ -17,7 +17,7 @@ Pod::Spec.new do |spec|
 
   spec.ios.deployment_target = '11.0'
 
-  spec.dependency 'TempoSDK', '1.8.4'
+  spec.dependency 'TempoSDK', '1.8.5'
   spec.source_files  = 'tempo-ios-sdk-adapter/**/*.{h,m,swift}'
   spec.resource_bundles = {
       'tempo-ios-sdk-adapter' => ['tempo-ios-sdk-adapter/Resources/**/*']

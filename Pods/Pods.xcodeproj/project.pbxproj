@@ -7,68 +7,68 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		048CD6E8976602D3FAC0A061CAA0F98C /* PrivacyInfo.xcprivacy in Resources */ = {isa = PBXBuildFile; fileRef = 0D34F0EFEDDF566ED0540E5C2FFE2699 /* PrivacyInfo.xcprivacy */; };
-		0D93FBD2ACF944C39F7769CD838D9998 /* TempoSDKAdapter-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = FA343D6C8B1D2AF6E09CDBE2EAFACB0A /* TempoSDKAdapter-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		0FA4873DE3CAEF189A5629FE4B96FDF9 /* TempoErrors.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA451FF75A5CF82C5A8E8004D36387AC /* TempoErrors.swift */; };
-		1B71DDF90AA960206B27CFC2E92639D4 /* TempoRewardedAd.swift in Sources */ = {isa = PBXBuildFile; fileRef = D8A98B9FD01EFA5081A88B94E54AD2A4 /* TempoRewardedAd.swift */; };
+		0D93FBD2ACF944C39F7769CD838D9998 /* TempoSDKAdapter-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = B8E3C99E07BAA54D6B5CF6D23FD2D93A /* TempoSDKAdapter-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		0FA4873DE3CAEF189A5629FE4B96FDF9 /* TempoErrors.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C65DDA8C8ED593CD44357DD33491C46 /* TempoErrors.swift */; };
+		1B71DDF90AA960206B27CFC2E92639D4 /* TempoRewardedAd.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD23F70AA9398800087952782CEE55EA /* TempoRewardedAd.swift */; };
 		3305B5E846736449D54FF0A14FBF1448 /* Pods-tempo-ios-unmediated-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 2B0351F1C93802698E23C5792FBBBBC9 /* Pods-tempo-ios-unmediated-dummy.m */; };
-		37B0A2F948F957118DEDD43D28FF5850 /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = E7208BC48974DD00169B0F81376FEC12 /* Constants.swift */; };
-		3E82CDB7EE6C580D8F16E610AD33E1AF /* TempoAdListener.swift in Sources */ = {isa = PBXBuildFile; fileRef = 26A83FCA5B2C726D8A36CD4031BF8FBC /* TempoAdListener.swift */; };
-		417456F89CEC5D0E0226C5945C895069 /* TempoAdController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4775BC3432F171DB9B1087F3B304ECCC /* TempoAdController.swift */; };
-		48D593CE86433C7121E8A7D79D4EEF4E /* TempoSDK-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = E0AFB56381754C91F1B88411DC603E3B /* TempoSDK-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		33A1ACB3886CEF7C88777C3C76AF1AD3 /* PrivacyInfo.xcprivacy in Resources */ = {isa = PBXBuildFile; fileRef = F8C75C5968E313F57B8D8974EBAF6D51 /* PrivacyInfo.xcprivacy */; };
+		37B0A2F948F957118DEDD43D28FF5850 /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A846A3D3F2490A07440E030ED29C4BB /* Constants.swift */; };
+		3E82CDB7EE6C580D8F16E610AD33E1AF /* TempoAdListener.swift in Sources */ = {isa = PBXBuildFile; fileRef = 09C416B4EA1F956CA5BA4593BD31A9E9 /* TempoAdListener.swift */; };
+		417456F89CEC5D0E0226C5945C895069 /* TempoAdController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E19B33E5A220CEE28A3A32E64FB836E /* TempoAdController.swift */; };
+		48D593CE86433C7121E8A7D79D4EEF4E /* TempoSDK-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = BCA3C2DC973F2D9288FC02E14C32494C /* TempoSDK-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		4F5C93FAEF658EB02A63DC08610D576A /* TempoSDK-TempoSDK in Resources */ = {isa = PBXBuildFile; fileRef = 04F7C329936901350EEBDAAE55ABBEC1 /* TempoSDK-TempoSDK */; };
-		55E4E3AD3D1734E4D8F303E4F9F1F3C4 /* TempoInterstitialAd.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB11E32E1374367548760EA433F3E2D4 /* TempoInterstitialAd.swift */; };
-		738195F60EA66D39C48431B6766C1DBD /* Metrics.swift in Sources */ = {isa = PBXBuildFile; fileRef = C0F90DF3A2F633EC1570B27CBA23399E /* Metrics.swift */; };
+		55E4E3AD3D1734E4D8F303E4F9F1F3C4 /* TempoInterstitialAd.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3C7513F438EBD6414DB9E6340CE08B3 /* TempoInterstitialAd.swift */; };
+		738195F60EA66D39C48431B6766C1DBD /* Metrics.swift in Sources */ = {isa = PBXBuildFile; fileRef = 453BB8F2AE377884092C1425E3677EF9 /* Metrics.swift */; };
 		74BB14398D067FBDFE05210523FF4F00 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 384DDA2CB25005BD6479B5987C619DD4 /* Foundation.framework */; };
-		7C4BC3AB7BD87CCDD6F2EDFC3CC4EB9E /* TempoSDK-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 7C666F5CB3E54ECB5EAEB55C5FA98574 /* TempoSDK-dummy.m */; };
-		851D71D46B68C407F20F31C633A5CFDA /* PrivacyInfo.xcprivacy in Resources */ = {isa = PBXBuildFile; fileRef = D90222BC969191E9F8FE9D3E0BA9C36C /* PrivacyInfo.xcprivacy */; };
+		797E4595269A7D62524F024866999954 /* PrivacyInfo.xcprivacy in Resources */ = {isa = PBXBuildFile; fileRef = 7788DBC2C45E20822339F7EE0BFC8DF4 /* PrivacyInfo.xcprivacy */; };
+		7C4BC3AB7BD87CCDD6F2EDFC3CC4EB9E /* TempoSDK-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 34F748D499DAC1D3F65463945730085B /* TempoSDK-dummy.m */; };
 		85976BA948E594F45D3BFA598B27EE9C /* Pods-tempo-ios-unmediated-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 9F85B1B892F14AB3B1B500A440BD1362 /* Pods-tempo-ios-unmediated-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		8BFCA27B990AD681C22957D9189DA934 /* TempoProfile.swift in Sources */ = {isa = PBXBuildFile; fileRef = 303E4C65C9D10E73760A29E7713E4D2C /* TempoProfile.swift */; };
-		99D90840B10BFF3BE35B1299B3A4CFB7 /* TempoExternal.swift in Sources */ = {isa = PBXBuildFile; fileRef = 69948C6CFC036F20FCB0C97E74F71070 /* TempoExternal.swift */; };
-		99F7971317636CFA28AB359E490C6616 /* TempoInitListener.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2318AA1D1B76CED344A00E5EB2D6009A /* TempoInitListener.swift */; };
-		B15480E617C057AB474B048AFB3A7317 /* TempoAdView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2FD56648FE68A0C4A6CB70B363028C2B /* TempoAdView.swift */; };
-		B21C82CBB92CAD944B02A70E4F9F625B /* Tempo.swift in Sources */ = {isa = PBXBuildFile; fileRef = AFECB7F93A3E637D3E56740C3942D53D /* Tempo.swift */; };
-		B378977B8FEE78A4A31EFD4B3D4AE052 /* CountryCode.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6B45225AD29486C6FDDEE2E9E618237C /* CountryCode.swift */; };
-		B89CD27FCD54C44BA4EDEC981E944947 /* TempoUtils.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6DFB5A39E95229FB5F36707B38159BCE /* TempoUtils.swift */; };
-		BEF40B4B0842573D5B4AF0E47A3B4162 /* RewardedListener.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA46FCE36488552A9085325464DF4EB2 /* RewardedListener.swift */; };
+		8BFCA27B990AD681C22957D9189DA934 /* TempoProfile.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8132BA1AAB520EAB81AC1E1977B18E54 /* TempoProfile.swift */; };
+		99D90840B10BFF3BE35B1299B3A4CFB7 /* TempoExternal.swift in Sources */ = {isa = PBXBuildFile; fileRef = 31C8A561368C523D502E0CE6F0E02054 /* TempoExternal.swift */; };
+		99F7971317636CFA28AB359E490C6616 /* TempoInitListener.swift in Sources */ = {isa = PBXBuildFile; fileRef = 806128E6868878684144AA36CAB31F70 /* TempoInitListener.swift */; };
+		B15480E617C057AB474B048AFB3A7317 /* TempoAdView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22E7C29C1DA10DFEA6AC7B5C1F98CD79 /* TempoAdView.swift */; };
+		B21C82CBB92CAD944B02A70E4F9F625B /* Tempo.swift in Sources */ = {isa = PBXBuildFile; fileRef = A5214291A5EEAE459CA1A1F92CCB86C8 /* Tempo.swift */; };
+		B378977B8FEE78A4A31EFD4B3D4AE052 /* CountryCode.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1489507E35905DD30ABFC01FA33168A8 /* CountryCode.swift */; };
+		B89CD27FCD54C44BA4EDEC981E944947 /* TempoUtils.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA6CB8F341B3000142D4437F9246C839 /* TempoUtils.swift */; };
+		BEF40B4B0842573D5B4AF0E47A3B4162 /* RewardedListener.swift in Sources */ = {isa = PBXBuildFile; fileRef = A06FABE5AD9F3756C6E1A2993BBA2D17 /* RewardedListener.swift */; };
 		D2282DA387C6D0B4668CD75D7D61AF6F /* TempoSDKAdapter-tempo-ios-sdk-adapter in Resources */ = {isa = PBXBuildFile; fileRef = F0DD0474E23BE86FEEE55116FD2FD629 /* TempoSDKAdapter-tempo-ios-sdk-adapter */; };
-		DD9450437537F7FCF2F949CD7237159F /* InterstitialListener.swift in Sources */ = {isa = PBXBuildFile; fileRef = C18D6D0BD9F44DC1E587286E51AC2D79 /* InterstitialListener.swift */; };
-		E697E14E47C9CFDD8B4FB89EED106AB8 /* TempoDataBackup.swift in Sources */ = {isa = PBXBuildFile; fileRef = C7ED0134A0E95EB7C2D51A9F587FBE98 /* TempoDataBackup.swift */; };
-		E77931C19F8FC76B5A4C65DB964B14F2 /* TempoSDKAdapter-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = A85D46A9F9B1F159872CA89CC67B83C1 /* TempoSDKAdapter-dummy.m */; };
+		DD9450437537F7FCF2F949CD7237159F /* InterstitialListener.swift in Sources */ = {isa = PBXBuildFile; fileRef = 55CB449E0C47A5876C0049F7F8AC04A8 /* InterstitialListener.swift */; };
+		E697E14E47C9CFDD8B4FB89EED106AB8 /* TempoDataBackup.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0902F3293B71669B5A796A575C1D90F5 /* TempoDataBackup.swift */; };
+		E77931C19F8FC76B5A4C65DB964B14F2 /* TempoSDKAdapter-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 42F5DC64A92DEF2A6F77B3B5FAAA3765 /* TempoSDKAdapter-dummy.m */; };
 		EB9E9B7DB1F6F207595B18DD4F994C29 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 384DDA2CB25005BD6479B5987C619DD4 /* Foundation.framework */; };
 		F02766201773F50AA10D3FC9FA365D80 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 384DDA2CB25005BD6479B5987C619DD4 /* Foundation.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
-		35A3A65311FFB7656C6C408930FC6C2B /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = 8006525EB986792FCB277255DE3E5770;
-			remoteInfo = TempoSDKAdapter;
-		};
-		666E3D7816979C101F0FEEF71199B5BA /* PBXContainerItemProxy */ = {
+		051024F48BAD98D441F355F6F0521579 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
 			proxyType = 1;
 			remoteGlobalIDString = 452BF17928B1327D885539AD22EC7515;
 			remoteInfo = TempoSDK;
 		};
-		CE84D7067DA1FAF97805A909BD57F8EA /* PBXContainerItemProxy */ = {
+		126D7D5D2E1A7DA45CC9D98B17797432 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
 			proxyType = 1;
 			remoteGlobalIDString = AD26A41E4718A690C3828AB9DFDCC5D8;
 			remoteInfo = "TempoSDK-TempoSDK";
 		};
-		F2B19F8BB2954ED6438264157EA717FE /* PBXContainerItemProxy */ = {
+		4A4C794DBA4C840F8EA522BD3DA84201 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
 			proxyType = 1;
 			remoteGlobalIDString = 452BF17928B1327D885539AD22EC7515;
 			remoteInfo = TempoSDK;
 		};
-		F488FE7266596CA0F17794CE2AD1449F /* PBXContainerItemProxy */ = {
+		6B530293A826BD126DC43D8F9CAF0A8D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 8006525EB986792FCB277255DE3E5770;
+			remoteInfo = TempoSDKAdapter;
+		};
+		81C9F09BB2BBF5DDD6A84F0802CBC4D6 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
 			proxyType = 1;
@@ -79,56 +79,57 @@
 
 /* Begin PBXFileReference section */
 		001B82B05CFCE0BA37DA9AF1D474B7A2 /* Pods-tempo-ios-unmediated.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-tempo-ios-unmediated.release.xcconfig"; sourceTree = "<group>"; };
-		00452D60FA9A22BD190EDE01A022B50A /* TempoSDK.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = TempoSDK.release.xcconfig; sourceTree = "<group>"; };
 		012D6A1C9B7748C646311461FD91D74B /* TempoSDKAdapter */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = TempoSDKAdapter; path = TempoSDKAdapter.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		04F7C329936901350EEBDAAE55ABBEC1 /* TempoSDK-TempoSDK */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; name = "TempoSDK-TempoSDK"; path = TempoSDK.bundle; sourceTree = BUILT_PRODUCTS_DIR; };
-		0D34F0EFEDDF566ED0540E5C2FFE2699 /* PrivacyInfo.xcprivacy */ = {isa = PBXFileReference; includeInIndex = 1; name = PrivacyInfo.xcprivacy; path = "tempo-ios-sdk-adapter/Resources/PrivacyInfo.xcprivacy"; sourceTree = "<group>"; };
-		1607B5E7ACA89DC0E660BF16BBB814F7 /* TempoSDK-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "TempoSDK-Info.plist"; sourceTree = "<group>"; };
-		2318AA1D1B76CED344A00E5EB2D6009A /* TempoInitListener.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = TempoInitListener.swift; path = "tempo-ios-sdk-adapter/TempoInitListener.swift"; sourceTree = "<group>"; };
-		26A83FCA5B2C726D8A36CD4031BF8FBC /* TempoAdListener.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = TempoAdListener.swift; path = TempoSDK/TempoAdListener.swift; sourceTree = "<group>"; };
+		0902F3293B71669B5A796A575C1D90F5 /* TempoDataBackup.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = TempoDataBackup.swift; path = TempoSDK/TempoDataBackup.swift; sourceTree = "<group>"; };
+		09C416B4EA1F956CA5BA4593BD31A9E9 /* TempoAdListener.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = TempoAdListener.swift; path = TempoSDK/TempoAdListener.swift; sourceTree = "<group>"; };
+		0E19B33E5A220CEE28A3A32E64FB836E /* TempoAdController.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = TempoAdController.swift; path = TempoSDK/TempoAdController.swift; sourceTree = "<group>"; };
+		1489507E35905DD30ABFC01FA33168A8 /* CountryCode.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = CountryCode.swift; path = TempoSDK/CountryCode.swift; sourceTree = "<group>"; };
+		1BEA58B1FD3E853CDAF86862E9C30FB8 /* TempoSDK.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = TempoSDK.modulemap; sourceTree = "<group>"; };
+		1C65DDA8C8ED593CD44357DD33491C46 /* TempoErrors.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = TempoErrors.swift; path = TempoSDK/TempoErrors.swift; sourceTree = "<group>"; };
+		22E7C29C1DA10DFEA6AC7B5C1F98CD79 /* TempoAdView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = TempoAdView.swift; path = TempoSDK/TempoAdView.swift; sourceTree = "<group>"; };
 		2B0351F1C93802698E23C5792FBBBBC9 /* Pods-tempo-ios-unmediated-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-tempo-ios-unmediated-dummy.m"; sourceTree = "<group>"; };
-		2FD56648FE68A0C4A6CB70B363028C2B /* TempoAdView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = TempoAdView.swift; path = TempoSDK/TempoAdView.swift; sourceTree = "<group>"; };
-		303E4C65C9D10E73760A29E7713E4D2C /* TempoProfile.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = TempoProfile.swift; path = TempoSDK/TempoProfile.swift; sourceTree = "<group>"; };
-		3047B59F5EB5CD70A0DEF2ECD3BBBA6F /* TempoSDKAdapter.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = TempoSDKAdapter.debug.xcconfig; sourceTree = "<group>"; };
+		31C8A561368C523D502E0CE6F0E02054 /* TempoExternal.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = TempoExternal.swift; path = TempoSDK/TempoExternal.swift; sourceTree = "<group>"; };
+		34F748D499DAC1D3F65463945730085B /* TempoSDK-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "TempoSDK-dummy.m"; sourceTree = "<group>"; };
 		36A94899834F39F9A6055FF4B52EBB52 /* Pods-tempo-ios-unmediated */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = "Pods-tempo-ios-unmediated"; path = Pods_tempo_ios_unmediated.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		384DDA2CB25005BD6479B5987C619DD4 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS18.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
-		4775BC3432F171DB9B1087F3B304ECCC /* TempoAdController.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = TempoAdController.swift; path = TempoSDK/TempoAdController.swift; sourceTree = "<group>"; };
-		639B0E7B64B02797424DCC48A6FA445F /* TempoSDKAdapter-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "TempoSDKAdapter-Info.plist"; sourceTree = "<group>"; };
-		69948C6CFC036F20FCB0C97E74F71070 /* TempoExternal.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = TempoExternal.swift; path = TempoSDK/TempoExternal.swift; sourceTree = "<group>"; };
-		6B45225AD29486C6FDDEE2E9E618237C /* CountryCode.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = CountryCode.swift; path = TempoSDK/CountryCode.swift; sourceTree = "<group>"; };
-		6DDD91CE7CD8D43F923C082FD4BBCFE5 /* TempoSDKAdapter-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "TempoSDKAdapter-prefix.pch"; sourceTree = "<group>"; };
-		6DFB5A39E95229FB5F36707B38159BCE /* TempoUtils.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = TempoUtils.swift; path = TempoSDK/TempoUtils.swift; sourceTree = "<group>"; };
+		3A846A3D3F2490A07440E030ED29C4BB /* Constants.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Constants.swift; path = TempoSDK/Constants.swift; sourceTree = "<group>"; };
+		42F5DC64A92DEF2A6F77B3B5FAAA3765 /* TempoSDKAdapter-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "TempoSDKAdapter-dummy.m"; sourceTree = "<group>"; };
+		44A88F6DED0C730BFDFB1AC2410AC620 /* TempoSDKAdapter.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = TempoSDKAdapter.modulemap; sourceTree = "<group>"; };
+		453BB8F2AE377884092C1425E3677EF9 /* Metrics.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Metrics.swift; path = TempoSDK/Metrics.swift; sourceTree = "<group>"; };
+		4995504920B240D80A8EF206EE91D4E7 /* TempoSDKAdapter.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; path = TempoSDKAdapter.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		55CB449E0C47A5876C0049F7F8AC04A8 /* InterstitialListener.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = InterstitialListener.swift; path = "tempo-ios-sdk-adapter/InterstitialListener.swift"; sourceTree = "<group>"; };
+		62E5D5593DBC86B12A4607C46E106773 /* TempoSDK.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = TempoSDK.release.xcconfig; sourceTree = "<group>"; };
 		6F0E4EA16FA523A166C59CD7EB8E4C58 /* TempoSDK */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = TempoSDK; path = TempoSDK.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		6FA9474861F09EC51720D15632C1EB9A /* Pods-tempo-ios-unmediated-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-tempo-ios-unmediated-acknowledgements.plist"; sourceTree = "<group>"; };
-		7C666F5CB3E54ECB5EAEB55C5FA98574 /* TempoSDK-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "TempoSDK-dummy.m"; sourceTree = "<group>"; };
+		748C4972C3F31662A47B9603B2B58E30 /* ResourceBundle-TempoSDK-TempoSDK-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "ResourceBundle-TempoSDK-TempoSDK-Info.plist"; sourceTree = "<group>"; };
+		7788DBC2C45E20822339F7EE0BFC8DF4 /* PrivacyInfo.xcprivacy */ = {isa = PBXFileReference; includeInIndex = 1; name = PrivacyInfo.xcprivacy; path = "tempo-ios-sdk-adapter/Resources/PrivacyInfo.xcprivacy"; sourceTree = "<group>"; };
+		7CAA32863C9AE8E576FCF2F7567504EE /* TempoSDK-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "TempoSDK-Info.plist"; sourceTree = "<group>"; };
+		7D1A2F1A06C66128ECC1D888E257DE3B /* TempoSDKAdapter.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = TempoSDKAdapter.release.xcconfig; sourceTree = "<group>"; };
+		806128E6868878684144AA36CAB31F70 /* TempoInitListener.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = TempoInitListener.swift; path = "tempo-ios-sdk-adapter/TempoInitListener.swift"; sourceTree = "<group>"; };
+		8132BA1AAB520EAB81AC1E1977B18E54 /* TempoProfile.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = TempoProfile.swift; path = TempoSDK/TempoProfile.swift; sourceTree = "<group>"; };
 		850E7A36CFA37656C2A8D88761ED3F20 /* Pods-tempo-ios-unmediated.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-tempo-ios-unmediated.debug.xcconfig"; sourceTree = "<group>"; };
+		88E4D490D5BA3E1D28DA958F4903107D /* ResourceBundle-tempo-ios-sdk-adapter-TempoSDKAdapter-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "ResourceBundle-tempo-ios-sdk-adapter-TempoSDKAdapter-Info.plist"; sourceTree = "<group>"; };
 		89B93AD71814A1C53A7DA1CC76931A3A /* Pods-tempo-ios-unmediated-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-tempo-ios-unmediated-frameworks.sh"; sourceTree = "<group>"; };
-		8BA7D635D8D4A7EFFBF5B1241D73B9C7 /* TempoSDK.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = TempoSDK.modulemap; sourceTree = "<group>"; };
 		90AE2EDEB8F8EBDE6841F8A3F07CF8EB /* Pods-tempo-ios-unmediated.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-tempo-ios-unmediated.modulemap"; sourceTree = "<group>"; };
-		9C0E962BBA4384E59DC68BFCD52A0135 /* TempoSDKAdapter.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = TempoSDKAdapter.modulemap; sourceTree = "<group>"; };
 		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		9F85B1B892F14AB3B1B500A440BD1362 /* Pods-tempo-ios-unmediated-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-tempo-ios-unmediated-umbrella.h"; sourceTree = "<group>"; };
-		A85D46A9F9B1F159872CA89CC67B83C1 /* TempoSDKAdapter-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "TempoSDKAdapter-dummy.m"; sourceTree = "<group>"; };
-		AFECB7F93A3E637D3E56740C3942D53D /* Tempo.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Tempo.swift; path = "tempo-ios-sdk-adapter/Tempo.swift"; sourceTree = "<group>"; };
-		BA46FCE36488552A9085325464DF4EB2 /* RewardedListener.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = RewardedListener.swift; path = "tempo-ios-sdk-adapter/RewardedListener.swift"; sourceTree = "<group>"; };
-		C0F90DF3A2F633EC1570B27CBA23399E /* Metrics.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Metrics.swift; path = TempoSDK/Metrics.swift; sourceTree = "<group>"; };
-		C18D6D0BD9F44DC1E587286E51AC2D79 /* InterstitialListener.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = InterstitialListener.swift; path = "tempo-ios-sdk-adapter/InterstitialListener.swift"; sourceTree = "<group>"; };
+		A06FABE5AD9F3756C6E1A2993BBA2D17 /* RewardedListener.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = RewardedListener.swift; path = "tempo-ios-sdk-adapter/RewardedListener.swift"; sourceTree = "<group>"; };
+		A5214291A5EEAE459CA1A1F92CCB86C8 /* Tempo.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Tempo.swift; path = "tempo-ios-sdk-adapter/Tempo.swift"; sourceTree = "<group>"; };
+		AADC5208A3B3B2585475E72591AE964B /* TempoSDKAdapter.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = TempoSDKAdapter.debug.xcconfig; sourceTree = "<group>"; };
+		B049BA5632629352BA1E26DB5C34C1EE /* TempoSDKAdapter-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "TempoSDKAdapter-prefix.pch"; sourceTree = "<group>"; };
+		B640E80A077B77DC158D6FFD32DE5E15 /* TempoSDK.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = TempoSDK.debug.xcconfig; sourceTree = "<group>"; };
+		B8E3C99E07BAA54D6B5CF6D23FD2D93A /* TempoSDKAdapter-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "TempoSDKAdapter-umbrella.h"; sourceTree = "<group>"; };
+		BCA3C2DC973F2D9288FC02E14C32494C /* TempoSDK-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "TempoSDK-umbrella.h"; sourceTree = "<group>"; };
 		C1DB3128496D4A970C7807DE858AE11C /* Pods-tempo-ios-unmediated-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-tempo-ios-unmediated-Info.plist"; sourceTree = "<group>"; };
-		C7ED0134A0E95EB7C2D51A9F587FBE98 /* TempoDataBackup.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = TempoDataBackup.swift; path = TempoSDK/TempoDataBackup.swift; sourceTree = "<group>"; };
-		CAA679330C0471D96FF8B31D83E49853 /* TempoSDK.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = TempoSDK.debug.xcconfig; sourceTree = "<group>"; };
-		D0E09C6012238920BA9476785F1A3C68 /* ResourceBundle-tempo-ios-sdk-adapter-TempoSDKAdapter-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "ResourceBundle-tempo-ios-sdk-adapter-TempoSDKAdapter-Info.plist"; sourceTree = "<group>"; };
+		CC03A4491526C72B1018A735877DDC29 /* TempoSDKAdapter-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "TempoSDKAdapter-Info.plist"; sourceTree = "<group>"; };
 		D20F71CB4CE4FDD9D6FD32669F8B06E6 /* Pods-tempo-ios-unmediated-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-tempo-ios-unmediated-acknowledgements.markdown"; sourceTree = "<group>"; };
-		D8A98B9FD01EFA5081A88B94E54AD2A4 /* TempoRewardedAd.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = TempoRewardedAd.swift; path = "tempo-ios-sdk-adapter/TempoRewardedAd.swift"; sourceTree = "<group>"; };
-		D90222BC969191E9F8FE9D3E0BA9C36C /* PrivacyInfo.xcprivacy */ = {isa = PBXFileReference; includeInIndex = 1; name = PrivacyInfo.xcprivacy; path = TempoSDK/Resources/PrivacyInfo.xcprivacy; sourceTree = "<group>"; };
-		DA451FF75A5CF82C5A8E8004D36387AC /* TempoErrors.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = TempoErrors.swift; path = TempoSDK/TempoErrors.swift; sourceTree = "<group>"; };
-		E0AFB56381754C91F1B88411DC603E3B /* TempoSDK-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "TempoSDK-umbrella.h"; sourceTree = "<group>"; };
-		E7208BC48974DD00169B0F81376FEC12 /* Constants.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Constants.swift; path = TempoSDK/Constants.swift; sourceTree = "<group>"; };
-		E7E8280243BDFF99E0E907D20870237B /* TempoSDK-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "TempoSDK-prefix.pch"; sourceTree = "<group>"; };
-		EB11E32E1374367548760EA433F3E2D4 /* TempoInterstitialAd.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = TempoInterstitialAd.swift; path = "tempo-ios-sdk-adapter/TempoInterstitialAd.swift"; sourceTree = "<group>"; };
+		DA6CB8F341B3000142D4437F9246C839 /* TempoUtils.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = TempoUtils.swift; path = TempoSDK/TempoUtils.swift; sourceTree = "<group>"; };
+		DD23F70AA9398800087952782CEE55EA /* TempoRewardedAd.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = TempoRewardedAd.swift; path = "tempo-ios-sdk-adapter/TempoRewardedAd.swift"; sourceTree = "<group>"; };
 		F0DD0474E23BE86FEEE55116FD2FD629 /* TempoSDKAdapter-tempo-ios-sdk-adapter */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; name = "TempoSDKAdapter-tempo-ios-sdk-adapter"; path = "tempo-ios-sdk-adapter.bundle"; sourceTree = BUILT_PRODUCTS_DIR; };
-		F3D285FC2EEF9C1F3B112BDAF79CD16E /* TempoSDKAdapter.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = TempoSDKAdapter.release.xcconfig; sourceTree = "<group>"; };
-		FA343D6C8B1D2AF6E09CDBE2EAFACB0A /* TempoSDKAdapter-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "TempoSDKAdapter-umbrella.h"; sourceTree = "<group>"; };
-		FC5B6A11B2241C8156073F66263A1A06 /* ResourceBundle-TempoSDK-TempoSDK-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "ResourceBundle-TempoSDK-TempoSDK-Info.plist"; sourceTree = "<group>"; };
+		F3C7513F438EBD6414DB9E6340CE08B3 /* TempoInterstitialAd.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = TempoInterstitialAd.swift; path = "tempo-ios-sdk-adapter/TempoInterstitialAd.swift"; sourceTree = "<group>"; };
+		F70EB8C5D2F47D9A0FE8BD96752B4FD0 /* TempoSDK-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "TempoSDK-prefix.pch"; sourceTree = "<group>"; };
+		F8C75C5968E313F57B8D8974EBAF6D51 /* PrivacyInfo.xcprivacy */ = {isa = PBXFileReference; includeInIndex = 1; name = PrivacyInfo.xcprivacy; path = TempoSDK/Resources/PrivacyInfo.xcprivacy; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -140,18 +141,18 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		1D9F2C23697F0DCC6456362416C667CF /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 		6FD185EC3853022276C3BA23AEE1CAE2 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 				F02766201773F50AA10D3FC9FA365D80 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A0483FCA76FF90BF4AEFE91E2A7B0656 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -163,7 +164,7 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		E2C9140AE3E0C57AE8C6F4B6E41BAB7C /* Frameworks */ = {
+		E537A888D1BAA510AE274DF92A73877E /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -173,28 +174,60 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		122AF4DCE106F6C8F8C158C44B05BB93 /* Support Files */ = {
+		0721F3368F0440D080D3368465C5D4DB /* Pods */ = {
 			isa = PBXGroup;
 			children = (
-				D0E09C6012238920BA9476785F1A3C68 /* ResourceBundle-tempo-ios-sdk-adapter-TempoSDKAdapter-Info.plist */,
-				9C0E962BBA4384E59DC68BFCD52A0135 /* TempoSDKAdapter.modulemap */,
-				A85D46A9F9B1F159872CA89CC67B83C1 /* TempoSDKAdapter-dummy.m */,
-				639B0E7B64B02797424DCC48A6FA445F /* TempoSDKAdapter-Info.plist */,
-				6DDD91CE7CD8D43F923C082FD4BBCFE5 /* TempoSDKAdapter-prefix.pch */,
-				FA343D6C8B1D2AF6E09CDBE2EAFACB0A /* TempoSDKAdapter-umbrella.h */,
-				3047B59F5EB5CD70A0DEF2ECD3BBBA6F /* TempoSDKAdapter.debug.xcconfig */,
-				F3D285FC2EEF9C1F3B112BDAF79CD16E /* TempoSDKAdapter.release.xcconfig */,
+				7566A4BCA83E3F9698F9EC9C6D100470 /* TempoSDK */,
 			);
-			name = "Support Files";
-			path = "../Target Support Files/TempoSDKAdapter";
+			name = Pods;
 			sourceTree = "<group>";
 		};
-		2E93B25B6E355AE73C6BCAE2B68EA178 /* Resources */ = {
+		37CC3E244CBFFB18F6E56034FD9FC49B /* Support Files */ = {
 			isa = PBXGroup;
 			children = (
-				0D34F0EFEDDF566ED0540E5C2FFE2699 /* PrivacyInfo.xcprivacy */,
+				748C4972C3F31662A47B9603B2B58E30 /* ResourceBundle-TempoSDK-TempoSDK-Info.plist */,
+				1BEA58B1FD3E853CDAF86862E9C30FB8 /* TempoSDK.modulemap */,
+				34F748D499DAC1D3F65463945730085B /* TempoSDK-dummy.m */,
+				7CAA32863C9AE8E576FCF2F7567504EE /* TempoSDK-Info.plist */,
+				F70EB8C5D2F47D9A0FE8BD96752B4FD0 /* TempoSDK-prefix.pch */,
+				BCA3C2DC973F2D9288FC02E14C32494C /* TempoSDK-umbrella.h */,
+				B640E80A077B77DC158D6FFD32DE5E15 /* TempoSDK.debug.xcconfig */,
+				62E5D5593DBC86B12A4607C46E106773 /* TempoSDK.release.xcconfig */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/TempoSDK";
+			sourceTree = "<group>";
+		};
+		3EFFCDE10E9ECF378E5A967D9AE9F398 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				88E4D490D5BA3E1D28DA958F4903107D /* ResourceBundle-tempo-ios-sdk-adapter-TempoSDKAdapter-Info.plist */,
+				44A88F6DED0C730BFDFB1AC2410AC620 /* TempoSDKAdapter.modulemap */,
+				42F5DC64A92DEF2A6F77B3B5FAAA3765 /* TempoSDKAdapter-dummy.m */,
+				CC03A4491526C72B1018A735877DDC29 /* TempoSDKAdapter-Info.plist */,
+				B049BA5632629352BA1E26DB5C34C1EE /* TempoSDKAdapter-prefix.pch */,
+				B8E3C99E07BAA54D6B5CF6D23FD2D93A /* TempoSDKAdapter-umbrella.h */,
+				AADC5208A3B3B2585475E72591AE964B /* TempoSDKAdapter.debug.xcconfig */,
+				7D1A2F1A06C66128ECC1D888E257DE3B /* TempoSDKAdapter.release.xcconfig */,
+			);
+			name = "Support Files";
+			path = "Pods/Target Support Files/TempoSDKAdapter";
+			sourceTree = "<group>";
+		};
+		571AA54ABB67533AAF2B6917903ED522 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				F8C75C5968E313F57B8D8974EBAF6D51 /* PrivacyInfo.xcprivacy */,
 			);
 			name = Resources;
+			sourceTree = "<group>";
+		};
+		59C5087DFF2C16F9444F9AA55F81F8F0 /* Development Pods */ = {
+			isa = PBXGroup;
+			children = (
+				A691C07BA42FAD94F6EFE92101D7052E /* TempoSDKAdapter */,
+			);
+			name = "Development Pods";
 			sourceTree = "<group>";
 		};
 		604493C3046A362D58D5E62AFCEA2853 /* Targets Support Files */ = {
@@ -205,20 +238,25 @@
 			name = "Targets Support Files";
 			sourceTree = "<group>";
 		};
-		675DC73D1A1C0A5E1294816FC18F376C /* Support Files */ = {
+		7566A4BCA83E3F9698F9EC9C6D100470 /* TempoSDK */ = {
 			isa = PBXGroup;
 			children = (
-				FC5B6A11B2241C8156073F66263A1A06 /* ResourceBundle-TempoSDK-TempoSDK-Info.plist */,
-				8BA7D635D8D4A7EFFBF5B1241D73B9C7 /* TempoSDK.modulemap */,
-				7C666F5CB3E54ECB5EAEB55C5FA98574 /* TempoSDK-dummy.m */,
-				1607B5E7ACA89DC0E660BF16BBB814F7 /* TempoSDK-Info.plist */,
-				E7E8280243BDFF99E0E907D20870237B /* TempoSDK-prefix.pch */,
-				E0AFB56381754C91F1B88411DC603E3B /* TempoSDK-umbrella.h */,
-				CAA679330C0471D96FF8B31D83E49853 /* TempoSDK.debug.xcconfig */,
-				00452D60FA9A22BD190EDE01A022B50A /* TempoSDK.release.xcconfig */,
+				3A846A3D3F2490A07440E030ED29C4BB /* Constants.swift */,
+				1489507E35905DD30ABFC01FA33168A8 /* CountryCode.swift */,
+				453BB8F2AE377884092C1425E3677EF9 /* Metrics.swift */,
+				0E19B33E5A220CEE28A3A32E64FB836E /* TempoAdController.swift */,
+				09C416B4EA1F956CA5BA4593BD31A9E9 /* TempoAdListener.swift */,
+				22E7C29C1DA10DFEA6AC7B5C1F98CD79 /* TempoAdView.swift */,
+				0902F3293B71669B5A796A575C1D90F5 /* TempoDataBackup.swift */,
+				1C65DDA8C8ED593CD44357DD33491C46 /* TempoErrors.swift */,
+				31C8A561368C523D502E0CE6F0E02054 /* TempoExternal.swift */,
+				8132BA1AAB520EAB81AC1E1977B18E54 /* TempoProfile.swift */,
+				DA6CB8F341B3000142D4437F9246C839 /* TempoUtils.swift */,
+				571AA54ABB67533AAF2B6917903ED522 /* Resources */,
+				37CC3E244CBFFB18F6E56034FD9FC49B /* Support Files */,
 			);
-			name = "Support Files";
-			path = "../Target Support Files/TempoSDK";
+			name = TempoSDK;
+			path = TempoSDK;
 			sourceTree = "<group>";
 		};
 		8B79196DB563699F9D550858C8F9E85B /* Products */ = {
@@ -233,37 +271,21 @@
 			name = Products;
 			sourceTree = "<group>";
 		};
-		A18644878119C9C3F01921A6EF241310 /* TempoSDKAdapter */ = {
+		A691C07BA42FAD94F6EFE92101D7052E /* TempoSDKAdapter */ = {
 			isa = PBXGroup;
 			children = (
-				C18D6D0BD9F44DC1E587286E51AC2D79 /* InterstitialListener.swift */,
-				BA46FCE36488552A9085325464DF4EB2 /* RewardedListener.swift */,
-				AFECB7F93A3E637D3E56740C3942D53D /* Tempo.swift */,
-				2318AA1D1B76CED344A00E5EB2D6009A /* TempoInitListener.swift */,
-				EB11E32E1374367548760EA433F3E2D4 /* TempoInterstitialAd.swift */,
-				D8A98B9FD01EFA5081A88B94E54AD2A4 /* TempoRewardedAd.swift */,
-				2E93B25B6E355AE73C6BCAE2B68EA178 /* Resources */,
-				122AF4DCE106F6C8F8C158C44B05BB93 /* Support Files */,
+				55CB449E0C47A5876C0049F7F8AC04A8 /* InterstitialListener.swift */,
+				7788DBC2C45E20822339F7EE0BFC8DF4 /* PrivacyInfo.xcprivacy */,
+				A06FABE5AD9F3756C6E1A2993BBA2D17 /* RewardedListener.swift */,
+				A5214291A5EEAE459CA1A1F92CCB86C8 /* Tempo.swift */,
+				806128E6868878684144AA36CAB31F70 /* TempoInitListener.swift */,
+				F3C7513F438EBD6414DB9E6340CE08B3 /* TempoInterstitialAd.swift */,
+				DD23F70AA9398800087952782CEE55EA /* TempoRewardedAd.swift */,
+				CFD6376E37554D0CED1D0FA3A7EADB08 /* Pod */,
+				3EFFCDE10E9ECF378E5A967D9AE9F398 /* Support Files */,
 			);
 			name = TempoSDKAdapter;
-			path = TempoSDKAdapter;
-			sourceTree = "<group>";
-		};
-		A689E4256287127E4DB5FCBB07B4837A /* Resources */ = {
-			isa = PBXGroup;
-			children = (
-				D90222BC969191E9F8FE9D3E0BA9C36C /* PrivacyInfo.xcprivacy */,
-			);
-			name = Resources;
-			sourceTree = "<group>";
-		};
-		BAB730341EB73BD5F51162EE5EBB1E54 /* Pods */ = {
-			isa = PBXGroup;
-			children = (
-				EA198A31B288A90E8A10F234174439F4 /* TempoSDK */,
-				A18644878119C9C3F01921A6EF241310 /* TempoSDKAdapter */,
-			);
-			name = Pods;
+			path = ..;
 			sourceTree = "<group>";
 		};
 		C92F73A46E18C59F15E5AF7CF47944E0 /* Pods-tempo-ios-unmediated */ = {
@@ -287,11 +309,20 @@
 			isa = PBXGroup;
 			children = (
 				9D940727FF8FB9C785EB98E56350EF41 /* Podfile */,
+				59C5087DFF2C16F9444F9AA55F81F8F0 /* Development Pods */,
 				D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */,
-				BAB730341EB73BD5F51162EE5EBB1E54 /* Pods */,
+				0721F3368F0440D080D3368465C5D4DB /* Pods */,
 				8B79196DB563699F9D550858C8F9E85B /* Products */,
 				604493C3046A362D58D5E62AFCEA2853 /* Targets Support Files */,
 			);
+			sourceTree = "<group>";
+		};
+		CFD6376E37554D0CED1D0FA3A7EADB08 /* Pod */ = {
+			isa = PBXGroup;
+			children = (
+				4995504920B240D80A8EF206EE91D4E7 /* TempoSDKAdapter.podspec */,
+			);
+			name = Pod;
 			sourceTree = "<group>";
 		};
 		D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */ = {
@@ -308,27 +339,6 @@
 				384DDA2CB25005BD6479B5987C619DD4 /* Foundation.framework */,
 			);
 			name = iOS;
-			sourceTree = "<group>";
-		};
-		EA198A31B288A90E8A10F234174439F4 /* TempoSDK */ = {
-			isa = PBXGroup;
-			children = (
-				E7208BC48974DD00169B0F81376FEC12 /* Constants.swift */,
-				6B45225AD29486C6FDDEE2E9E618237C /* CountryCode.swift */,
-				C0F90DF3A2F633EC1570B27CBA23399E /* Metrics.swift */,
-				4775BC3432F171DB9B1087F3B304ECCC /* TempoAdController.swift */,
-				26A83FCA5B2C726D8A36CD4031BF8FBC /* TempoAdListener.swift */,
-				2FD56648FE68A0C4A6CB70B363028C2B /* TempoAdView.swift */,
-				C7ED0134A0E95EB7C2D51A9F587FBE98 /* TempoDataBackup.swift */,
-				DA451FF75A5CF82C5A8E8004D36387AC /* TempoErrors.swift */,
-				69948C6CFC036F20FCB0C97E74F71070 /* TempoExternal.swift */,
-				303E4C65C9D10E73760A29E7713E4D2C /* TempoProfile.swift */,
-				6DFB5A39E95229FB5F36707B38159BCE /* TempoUtils.swift */,
-				A689E4256287127E4DB5FCBB07B4837A /* Resources */,
-				675DC73D1A1C0A5E1294816FC18F376C /* Support Files */,
-			);
-			name = TempoSDK;
-			path = TempoSDK;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -373,7 +383,7 @@
 			buildRules = (
 			);
 			dependencies = (
-				BE89B9FD3D32CB6080216A26187C3556 /* PBXTargetDependency */,
+				C0917BC8A666167CF47143F0DECF7AA5 /* PBXTargetDependency */,
 			);
 			name = TempoSDK;
 			productName = TempoSDK;
@@ -392,8 +402,8 @@
 			buildRules = (
 			);
 			dependencies = (
-				618B08D71E726C6075C707E1C8F1268B /* PBXTargetDependency */,
-				9A9B6ACA54950C1B6910958883DD6F65 /* PBXTargetDependency */,
+				B648E28AA6DC8FD456F62B5711938B34 /* PBXTargetDependency */,
+				60BD8DB116191CFCC26D0CD6B8976266 /* PBXTargetDependency */,
 			);
 			name = "Pods-tempo-ios-unmediated";
 			productName = Pods_tempo_ios_unmediated;
@@ -412,8 +422,8 @@
 			buildRules = (
 			);
 			dependencies = (
-				FBD6E2D410709F8903AF14923448964E /* PBXTargetDependency */,
-				51ADEEC9C8444B5B3B529C563F36A2B1 /* PBXTargetDependency */,
+				4A1FDCC6DE7AA02911D84D8FA4C63FAC /* PBXTargetDependency */,
+				35A03DD8EE25DB49C998365C09857AE8 /* PBXTargetDependency */,
 			);
 			name = TempoSDKAdapter;
 			productName = TempoSDKAdapter;
@@ -422,11 +432,11 @@
 		};
 		AD26A41E4718A690C3828AB9DFDCC5D8 /* TempoSDK-TempoSDK */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = AFFB95BA57DCE447F907F2F92191372B /* Build configuration list for PBXNativeTarget "TempoSDK-TempoSDK" */;
+			buildConfigurationList = DAA296B3A83F003DA294CB88CA1934B4 /* Build configuration list for PBXNativeTarget "TempoSDK-TempoSDK" */;
 			buildPhases = (
-				CF223674523B3527D85891ACC4B9AC05 /* Sources */,
-				E2C9140AE3E0C57AE8C6F4B6E41BAB7C /* Frameworks */,
-				10862CCD11F5D8F3268A35DE10C8509C /* Resources */,
+				0A119DC320331640AF51F787A12E37C8 /* Sources */,
+				A0483FCA76FF90BF4AEFE91E2A7B0656 /* Frameworks */,
+				32EF72D9A69DC97342C8D6A1CEEC87BC /* Resources */,
 			);
 			buildRules = (
 			);
@@ -439,11 +449,11 @@
 		};
 		CDD7E7C0FF5F70296BBD3E0B18E90DCC /* TempoSDKAdapter-tempo-ios-sdk-adapter */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = D203CA2845BD8ABEAAC02FE33580D08C /* Build configuration list for PBXNativeTarget "TempoSDKAdapter-tempo-ios-sdk-adapter" */;
+			buildConfigurationList = 6B642158FE3EA9EEF5B745F4C8CA69B5 /* Build configuration list for PBXNativeTarget "TempoSDKAdapter-tempo-ios-sdk-adapter" */;
 			buildPhases = (
-				729A6CFF9780DFA5546444562051E53D /* Sources */,
-				1D9F2C23697F0DCC6456362416C667CF /* Frameworks */,
-				380D0FCD6A7A8A20C001B31EC8B011C8 /* Resources */,
+				F430648CC04628844BFC84DCF6D45CB5 /* Sources */,
+				E537A888D1BAA510AE274DF92A73877E /* Frameworks */,
+				D1D9C4B6DAE4536212DC027780AB56A4 /* Resources */,
 			);
 			buildRules = (
 			);
@@ -488,19 +498,11 @@
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		10862CCD11F5D8F3268A35DE10C8509C /* Resources */ = {
+		32EF72D9A69DC97342C8D6A1CEEC87BC /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				851D71D46B68C407F20F31C633A5CFDA /* PrivacyInfo.xcprivacy in Resources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		380D0FCD6A7A8A20C001B31EC8B011C8 /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				048CD6E8976602D3FAC0A061CAA0F98C /* PrivacyInfo.xcprivacy in Resources */,
+				33A1ACB3886CEF7C88777C3C76AF1AD3 /* PrivacyInfo.xcprivacy in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -527,9 +529,24 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		D1D9C4B6DAE4536212DC027780AB56A4 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				797E4595269A7D62524F024866999954 /* PrivacyInfo.xcprivacy in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
+		0A119DC320331640AF51F787A12E37C8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		3D34CF7215809D3AEA8CEC13370AC64C /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -552,13 +569,6 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		729A6CFF9780DFA5546444562051E53D /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 		CB4B19BFDA9B2C0E12BD41E6927E5205 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -578,7 +588,7 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		CF223674523B3527D85891ACC4B9AC05 /* Sources */ = {
+		F430648CC04628844BFC84DCF6D45CB5 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -588,42 +598,59 @@
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
-		51ADEEC9C8444B5B3B529C563F36A2B1 /* PBXTargetDependency */ = {
+		35A03DD8EE25DB49C998365C09857AE8 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = "TempoSDKAdapter-tempo-ios-sdk-adapter";
 			target = CDD7E7C0FF5F70296BBD3E0B18E90DCC /* TempoSDKAdapter-tempo-ios-sdk-adapter */;
-			targetProxy = F488FE7266596CA0F17794CE2AD1449F /* PBXContainerItemProxy */;
+			targetProxy = 81C9F09BB2BBF5DDD6A84F0802CBC4D6 /* PBXContainerItemProxy */;
 		};
-		618B08D71E726C6075C707E1C8F1268B /* PBXTargetDependency */ = {
+		4A1FDCC6DE7AA02911D84D8FA4C63FAC /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = TempoSDK;
 			target = 452BF17928B1327D885539AD22EC7515 /* TempoSDK */;
-			targetProxy = 666E3D7816979C101F0FEEF71199B5BA /* PBXContainerItemProxy */;
+			targetProxy = 051024F48BAD98D441F355F6F0521579 /* PBXContainerItemProxy */;
 		};
-		9A9B6ACA54950C1B6910958883DD6F65 /* PBXTargetDependency */ = {
+		60BD8DB116191CFCC26D0CD6B8976266 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = TempoSDKAdapter;
 			target = 8006525EB986792FCB277255DE3E5770 /* TempoSDKAdapter */;
-			targetProxy = 35A3A65311FFB7656C6C408930FC6C2B /* PBXContainerItemProxy */;
+			targetProxy = 6B530293A826BD126DC43D8F9CAF0A8D /* PBXContainerItemProxy */;
 		};
-		BE89B9FD3D32CB6080216A26187C3556 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			name = "TempoSDK-TempoSDK";
-			target = AD26A41E4718A690C3828AB9DFDCC5D8 /* TempoSDK-TempoSDK */;
-			targetProxy = CE84D7067DA1FAF97805A909BD57F8EA /* PBXContainerItemProxy */;
-		};
-		FBD6E2D410709F8903AF14923448964E /* PBXTargetDependency */ = {
+		B648E28AA6DC8FD456F62B5711938B34 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = TempoSDK;
 			target = 452BF17928B1327D885539AD22EC7515 /* TempoSDK */;
-			targetProxy = F2B19F8BB2954ED6438264157EA717FE /* PBXContainerItemProxy */;
+			targetProxy = 4A4C794DBA4C840F8EA522BD3DA84201 /* PBXContainerItemProxy */;
+		};
+		C0917BC8A666167CF47143F0DECF7AA5 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "TempoSDK-TempoSDK";
+			target = AD26A41E4718A690C3828AB9DFDCC5D8 /* TempoSDK-TempoSDK */;
+			targetProxy = 126D7D5D2E1A7DA45CC9D98B17797432 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
+		04C928F5FD99EF134127152EDF483F5D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = AADC5208A3B3B2585475E72591AE964B /* TempoSDKAdapter.debug.xcconfig */;
+			buildSettings = {
+				CODE_SIGNING_ALLOWED = NO;
+				CONFIGURATION_BUILD_DIR = "$(BUILD_DIR)/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/TempoSDKAdapter";
+				IBSC_MODULE = TempoSDKAdapter;
+				INFOPLIST_FILE = "Target Support Files/TempoSDKAdapter/ResourceBundle-tempo-ios-sdk-adapter-TempoSDKAdapter-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				PRODUCT_NAME = "tempo-ios-sdk-adapter";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				WRAPPER_EXTENSION = bundle;
+			};
+			name = Debug;
+		};
 		33A4A0C9F139EA12B99F942E91FBD585 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = F3D285FC2EEF9C1F3B112BDAF79CD16E /* TempoSDKAdapter.release.xcconfig */;
+			baseConfigurationReference = 7D1A2F1A06C66128ECC1D888E257DE3B /* TempoSDKAdapter.release.xcconfig */;
 			buildSettings = {
 				CLANG_ENABLE_OBJC_WEAK = NO;
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
@@ -701,9 +728,26 @@
 			};
 			name = Release;
 		};
-		45B433E7104B7153AE03E793F4840904 /* Debug */ = {
+		472193B63F57E954A060A004C784E3D9 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 3047B59F5EB5CD70A0DEF2ECD3BBBA6F /* TempoSDKAdapter.debug.xcconfig */;
+			baseConfigurationReference = B640E80A077B77DC158D6FFD32DE5E15 /* TempoSDK.debug.xcconfig */;
+			buildSettings = {
+				CODE_SIGNING_ALLOWED = NO;
+				CONFIGURATION_BUILD_DIR = "$(BUILD_DIR)/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/TempoSDK";
+				IBSC_MODULE = TempoSDK;
+				INFOPLIST_FILE = "Target Support Files/TempoSDK/ResourceBundle-TempoSDK-TempoSDK-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				PRODUCT_NAME = TempoSDK;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				WRAPPER_EXTENSION = bundle;
+			};
+			name = Debug;
+		};
+		5E5B705FB2437753FD6E93D1F1B8D9DC /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7D1A2F1A06C66128ECC1D888E257DE3B /* TempoSDKAdapter.release.xcconfig */;
 			buildSettings = {
 				CODE_SIGNING_ALLOWED = NO;
 				CONFIGURATION_BUILD_DIR = "$(BUILD_DIR)/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/TempoSDKAdapter";
@@ -716,7 +760,24 @@
 				TARGETED_DEVICE_FAMILY = "1,2";
 				WRAPPER_EXTENSION = bundle;
 			};
-			name = Debug;
+			name = Release;
+		};
+		62072669465EBCC707C350D8EE29CA34 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 62E5D5593DBC86B12A4607C46E106773 /* TempoSDK.release.xcconfig */;
+			buildSettings = {
+				CODE_SIGNING_ALLOWED = NO;
+				CONFIGURATION_BUILD_DIR = "$(BUILD_DIR)/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/TempoSDK";
+				IBSC_MODULE = TempoSDK;
+				INFOPLIST_FILE = "Target Support Files/TempoSDK/ResourceBundle-TempoSDK-TempoSDK-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				PRODUCT_NAME = TempoSDK;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				WRAPPER_EXTENSION = bundle;
+			};
+			name = Release;
 		};
 		903A0004D3E6651EFD5D2E16214D101B /* Release */ = {
 			isa = XCBuildConfiguration;
@@ -782,7 +843,7 @@
 		};
 		9B578A9D45396AD670915700547FF286 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = CAA679330C0471D96FF8B31D83E49853 /* TempoSDK.debug.xcconfig */;
+			baseConfigurationReference = B640E80A077B77DC158D6FFD32DE5E15 /* TempoSDK.debug.xcconfig */;
 			buildSettings = {
 				CLANG_ENABLE_OBJC_WEAK = NO;
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
@@ -821,7 +882,7 @@
 		};
 		A3E00948AD1E4A86FC54EC45ED5BC903 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 00452D60FA9A22BD190EDE01A022B50A /* TempoSDK.release.xcconfig */;
+			baseConfigurationReference = 62E5D5593DBC86B12A4607C46E106773 /* TempoSDK.release.xcconfig */;
 			buildSettings = {
 				CLANG_ENABLE_OBJC_WEAK = NO;
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
@@ -925,60 +986,9 @@
 			};
 			name = Debug;
 		};
-		C039879D205CEB6C963F99556D0544A6 /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 00452D60FA9A22BD190EDE01A022B50A /* TempoSDK.release.xcconfig */;
-			buildSettings = {
-				CODE_SIGNING_ALLOWED = NO;
-				CONFIGURATION_BUILD_DIR = "$(BUILD_DIR)/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/TempoSDK";
-				IBSC_MODULE = TempoSDK;
-				INFOPLIST_FILE = "Target Support Files/TempoSDK/ResourceBundle-TempoSDK-TempoSDK-Info.plist";
-				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
-				PRODUCT_NAME = TempoSDK;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				WRAPPER_EXTENSION = bundle;
-			};
-			name = Release;
-		};
-		C7A2AA6D1FFD66C7873C19A19A781903 /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = F3D285FC2EEF9C1F3B112BDAF79CD16E /* TempoSDKAdapter.release.xcconfig */;
-			buildSettings = {
-				CODE_SIGNING_ALLOWED = NO;
-				CONFIGURATION_BUILD_DIR = "$(BUILD_DIR)/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/TempoSDKAdapter";
-				IBSC_MODULE = TempoSDKAdapter;
-				INFOPLIST_FILE = "Target Support Files/TempoSDKAdapter/ResourceBundle-tempo-ios-sdk-adapter-TempoSDKAdapter-Info.plist";
-				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
-				PRODUCT_NAME = "tempo-ios-sdk-adapter";
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				WRAPPER_EXTENSION = bundle;
-			};
-			name = Release;
-		};
-		DD59E773718C8D4EECAEE763E10D3415 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = CAA679330C0471D96FF8B31D83E49853 /* TempoSDK.debug.xcconfig */;
-			buildSettings = {
-				CODE_SIGNING_ALLOWED = NO;
-				CONFIGURATION_BUILD_DIR = "$(BUILD_DIR)/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/TempoSDK";
-				IBSC_MODULE = TempoSDK;
-				INFOPLIST_FILE = "Target Support Files/TempoSDK/ResourceBundle-TempoSDK-TempoSDK-Info.plist";
-				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
-				PRODUCT_NAME = TempoSDK;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				WRAPPER_EXTENSION = bundle;
-			};
-			name = Debug;
-		};
 		E1AB43BB9D05B1270A0A70B9AFA87F5F /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 3047B59F5EB5CD70A0DEF2ECD3BBBA6F /* TempoSDKAdapter.debug.xcconfig */;
+			baseConfigurationReference = AADC5208A3B3B2585475E72591AE964B /* TempoSDKAdapter.debug.xcconfig */;
 			buildSettings = {
 				CLANG_ENABLE_OBJC_WEAK = NO;
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
@@ -1066,6 +1076,15 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
+		6B642158FE3EA9EEF5B745F4C8CA69B5 /* Build configuration list for PBXNativeTarget "TempoSDKAdapter-tempo-ios-sdk-adapter" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				04C928F5FD99EF134127152EDF483F5D /* Debug */,
+				5E5B705FB2437753FD6E93D1F1B8D9DC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
 		8BB45B1D7E510A91099D3AAAA4073E5E /* Build configuration list for PBXNativeTarget "TempoSDK" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
@@ -1093,20 +1112,11 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		AFFB95BA57DCE447F907F2F92191372B /* Build configuration list for PBXNativeTarget "TempoSDK-TempoSDK" */ = {
+		DAA296B3A83F003DA294CB88CA1934B4 /* Build configuration list for PBXNativeTarget "TempoSDK-TempoSDK" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				DD59E773718C8D4EECAEE763E10D3415 /* Debug */,
-				C039879D205CEB6C963F99556D0544A6 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		D203CA2845BD8ABEAAC02FE33580D08C /* Build configuration list for PBXNativeTarget "TempoSDKAdapter-tempo-ios-sdk-adapter" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				45B433E7104B7153AE03E793F4840904 /* Debug */,
-				C7A2AA6D1FFD66C7873C19A19A781903 /* Release */,
+				472193B63F57E954A060A004C784E3D9 /* Debug */,
+				62072669465EBCC707C350D8EE29CA34 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
