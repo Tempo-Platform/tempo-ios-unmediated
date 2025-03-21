@@ -1,6 +1,6 @@
 PODS:
   - TempoSDK (1.8.4)
-  - TempoSDKAdapter (1.1.0-rc.0):
+  - TempoSDKAdapter (1.1.0):
     - TempoSDK (= 1.8.4)
 
 DEPENDENCIES:
@@ -16,7 +16,7 @@ EXTERNAL SOURCES:
 
 SPEC CHECKSUMS:
   TempoSDK: 73e2b7367175c34b665eaaf03a7c595b72ed9431
-  TempoSDKAdapter: 62f284820f6c41869d7d2b35ad14e60a2552092e
+  TempoSDKAdapter: 1f926ff2ef6510a78de34a557c448433030505b2
 
 PODFILE CHECKSUM: a9aae679f8f4ff231b985dc289be6b589fd9be5e
 
