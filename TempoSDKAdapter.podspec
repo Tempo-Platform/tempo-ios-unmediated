@@ -20,7 +20,7 @@ Pod::Spec.new do |spec|
   spec.dependency 'TempoSDK', '1.8.4'
   spec.source_files  = 'tempo-ios-sdk-adapter/**/*.{h,m,swift}'
   spec.resource_bundles = {
-      'tempo-ios-sdk-adapter' => ['TempoSDKAdapter/Resources/**/*']
+      'tempo-ios-sdk-adapter' => ['tempo-ios-sdk-adapter/Resources/**/*']
     }
   
   spec.tvos.pod_target_xcconfig  = { 'EXCLUDED_ARCHS[sdk=appletvsimulator*]' => 'arm64', }
